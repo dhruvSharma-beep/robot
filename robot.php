@@ -21,7 +21,7 @@ if (!is_numeric($a) || !is_numeric($b)) {
 
 $currentDirection = $argv[3];
 
-if ($currentDirection != 'North' && $currentDirection != 'East' && $currentDirection != 'South' && $presentDirection != 'West') {
+if ($currentDirection != 'North' && $currentDirection != 'East' && $currentDirection != 'South' && $currentDirection != 'West') {
     die("\n You are in wrong direction \n");
 }
 
