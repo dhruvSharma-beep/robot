@@ -12,10 +12,10 @@ const Robot_2 = 1;
 const Robot_3 = -1;
 const Robot_4 = -1;
 
-$a = $argv[1];
-$b = $argv[2];
+$x = $argv[1];
+$y = $argv[2];
 
-if (!is_numeric($a) || !is_numeric($b)) {
+if (!is_numeric($x) || !is_numeric($y)) {
     die("\nThe number should be integer\n");
 }
 
@@ -63,4 +63,4 @@ for ($i = 0; $i < strlen($path); $i++) {
     }
 }
 
-echo $a . " " . $b . " " . $pathdirection[$directionNumber] . "\n";
+echo $x . " " . $y . " " . $pathdirection[$directionNumber] . "\n";
